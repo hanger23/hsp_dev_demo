@@ -1,0 +1,15 @@
+{
+  "name": "hsp_dev_demo",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    /// "@hsp_dev_demo/shared_library1" 只是一个别名，可以改为任意字符串,别名写什么引入时就写什么
+    "@hsp_dev_demo/shared_library1": "file:./shared_library1"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}
